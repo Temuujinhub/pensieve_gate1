@@ -1,31 +1,58 @@
+# Project Build Guide
 
-# Pensieve Gate
+## Tech Stack
 
-![Company Logo](./public/assets/company-logo.png)
+This project is built using the following technologies:
 
-## Танилцуулга
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Pensieve Gate бол дижитал шийдэл, вэб хөгжүүлэлт, технологийн зөвлөх үйлчилгээ үзүүлэгч компани юм. Бид бизнесүүдэд инноваци, үр ашиг, өсөлтийг авчирдаг.
+## Prerequisites
 
-## Үйлчилгээ
-- Вэб сайт хөгжүүлэлт
-- Дижитал маркетинг
-- Технологийн зөвлөх үйлчилгээ
-- Брэнд дизайн, UI/UX
+Make sure your system has Node.js and npm installed.
 
-## Холбоо барих
-- И-мэйл: info@pensievegate.mn
-- Утас: +976-99112233
+We recommend using nvm to install Node.js: [nvm Installation Guide](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## Суулгах, ажиллуулах
-```bash
+## Install Dependencies
+
+```sh
 npm install
+```
+
+## Development Server
+
+Start the development server with hot reload and instant preview:
+
+```sh
 npm run dev
 ```
 
-## Github
-[https://github.com/Temuujinhub/pensieve_gate1](https://github.com/Temuujinhub/pensieve_gate1)
+## Build Project
 
----
+Build for production:
 
-Энэ landing page нь scroll-driven стильтэй, нэг хуудсаар бүх мэдээллийг харуулна. Лого болон контентуудыг өөрчлөхөд хялбар.
+```sh
+npm run build
+```
+
+## Preview Build
+
+Preview the built project:
+
+```sh
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── components/     # UI Components
+├── pages/         # Page Components
+├── hooks/         # Custom Hooks
+├── lib/           # Utility Library
+└── main.tsx       # Application Entry Point
+```
