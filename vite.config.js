@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path';
 
 export default defineConfig({
+  base: '/pensieve_gate1/', // энэ repo-н нэр
   plugins: [react()],
   resolve: {
     alias: {
